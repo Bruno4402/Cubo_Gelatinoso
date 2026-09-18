@@ -17,8 +17,8 @@ O estudo desenvolvido abrange as seguintes etapas:
 * Tratamento das variáveis, separação dos atributos e da variável-alvo (*target*), e divisão do *dataset* em conjuntos de treino e teste.
 * Avaliação inicial do $k$-NN ($k=3$, $p=2$) sem escalonamento prévio, estabelecendo um RMSE inicial.
 * Teste e comparação de três métodos de normalização.
-* Teste amostral de 15 hiperparãmetros e posterior variação exaustiva de $k$ e $p$ para localização do melhor hiperparâmetro global.
-* Aplicação de *Cross-Validation* com $p$ fixo para mapear o equilíbrio ideal entre menor RMSE e estabilidade (desvio padrão).
+* Teste amostral de 15 hiperparâmetros e posterior variação exaustiva de $k$ e $p$ para localização do melhor hiperparâmetro global.
+* Aplicação de Validação Cruzada com $p$ fixo para mapear o equilíbrio ideal entre menor RMSE e estabilidade (desvio padrão).
 * Análise do comportamento de $p$ com $k$ fixo e diagnóstico da distribuição dos erros por amostra.
 
 ## :open_file_folder: Arquivos do repositório:
